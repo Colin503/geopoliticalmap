@@ -1,0 +1,7 @@
+salut, est ce que tu peux me faire un script python qui génère une carte, 
+sur le sujet de la sécheresse dans le monde, n'utilise pas streamlit, 
+je veux juste générer une carte, as tu des questions ?
+
+GEMINI ME POSE DES QUESTIONS DONC JE REPOND : 
+
+fais avec les données que tu as stp, plutot une image statique, plutot une carte de chaleur
