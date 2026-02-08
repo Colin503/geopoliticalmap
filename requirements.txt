@@ -1,1 +1,4 @@
-x
+streamlit
+plotly.graph_objects
+pandas
+numpy
