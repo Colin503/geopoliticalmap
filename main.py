@@ -20,9 +20,9 @@ acteurs = [
 
 # FLUX
 flux_data = [
-    {"start_lat": -22.0, "start_lon": -67.0, "end_lat": 28.0, "end_lon": 115.0, "cat": "Physique", "label": "Carbonate (SQM/Ganfeng)", "color": "#3498db", "width": 3},
-    {"start_lat": -33.8, "start_lon": 116.0, "end_lat": 28.0, "end_lon": 115.0, "cat": "Physique", "label": "Spodumène (Albemarle)", "color": "#3498db", "width": 4},
-    {"start_lat": 51.0, "start_lon": 10.0, "end_lat": 51.0, "end_lon": 10.0, "cat": "Circulaire", "label": "Recyclage Local", "color": "#f1c40f", "width": 5}, # Boucle locale
+    {"start_lat": -22.0, "start_lon": -67.0, "end_lat": 28.0, "end_lon": 115.0, "cat": "Trajet du Minerai (Extraction-Raffinage)", "label": "Carbonate (SQM/Ganfeng)", "color": "#3498db", "width": 3},
+    {"start_lat": -33.8, "start_lon": 116.0, "end_lat": 28.0, "end_lon": 115.0, "cat": "Trajet du Minerai (Extraction-Raffinage)", "label": "Spodumène (Albemarle)", "color": "#3498db", "width": 4},
+    {"start_lat": 51.0, "start_lon": 10.0, "end_lat": 51.0, "end_lon": 10.0, "cat": "Boucle de Récupération Locale", "label": "Recyclage Local", "color": "#f1c40f", "width": 5}, # Boucle locale
 ]
 
 # Données pour le graphique de comparaison (Réserves vs Production)
@@ -35,7 +35,7 @@ df_res = pd.DataFrame(data_reserves)
 
 # --- 2. INTERFACE STREAMLIT ---
 
-st.title("⚡ La course au lithium : Enjeux et Revers")
+st.title("⚡ La course au lithium : Enjeux et revers")
 
 # --- 3. CARTE INTERACTIVE ---
 
